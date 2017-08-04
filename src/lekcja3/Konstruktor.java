@@ -6,6 +6,10 @@ public class Konstruktor {
 		System.out.println("Tu konstruktor ...");
 	}
 	
+	Konstruktor(String nazwisko, int numer){
+		System.out.println("Konstruktor ze Stringiem i intem");
+	}
+	
 	Konstruktor(String imie){
 		this.imie = imie;
 		System.out.println("Tu konstruktor 2 ...");
@@ -29,6 +33,7 @@ public class Konstruktor {
 		Konstruktor ks = new Konstruktor();
 		Konstruktor ks2 = new Konstruktor("Jacek");
 		Konstruktor ks3 = new Konstruktor(1);
+		Konstruktor ks4 = new Konstruktor("aaa", 1);
 		
 		//ks.imie = "Jacek";
 		//ks.lata = 10;
