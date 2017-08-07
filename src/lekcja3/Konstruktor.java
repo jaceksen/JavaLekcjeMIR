@@ -15,6 +15,10 @@ public class Konstruktor {
 		System.out.println("Tu konstruktor 2 ...");
 	}
 	
+	Konstruktor(String sfdsadfsad, String sdfsda){
+		
+	}
+	
 	Konstruktor(int x){
 		this.imie = "Zenon";
 		this.lata = 87;
