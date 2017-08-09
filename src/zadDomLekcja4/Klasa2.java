@@ -11,7 +11,9 @@ public class Klasa2 {
 
 	public String wynikZ() {
 		//System.out.println(this.imie + " " + "jest mistrzem");
-		
+//		String aaa = "";
+//		aaa = new StringBuilder().append(this.imie).append(" jest mistrzem").toString();
+//		return aaa;
 		return new StringBuilder().append(this.imie).append(" jest mistrzem").toString();
 	}
 
@@ -20,8 +22,7 @@ public class Klasa2 {
 	}
 
 	public int lata7() {
-
 		return this.lata * 7;
-
 	}
+	
 }
